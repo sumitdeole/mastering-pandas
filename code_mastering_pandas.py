@@ -9,17 +9,16 @@ import matplotlib.pyplot as plt
 # Task 1: Merge 12 datafiles into a single dataframe
 files = [file for file in os.listdir("C:/Users/my-g-/Desktop/Python/mastering_Pandas/SalesAnalysis/Sales_Data")]
 
-all_months_data = pd.DataFrame()
+combined_data = pd.DataFrame()
 
 for file in files:
     # print(file) # To print file names
     df = pd.read_csv("C:/Users/my-g-/Desktop/Python/mastering_Pandas/SalesAnalysis/Sales_Data/" + file)
-    all_months_data = pd.concat([all_months_data, df])
-
-all_months_data.to_csv("all_months_data.csv", index=False)
+    combined_data = pd.concat([combined_data, df])
+combined_data.to_csv("combined_data.csv", index=False)
 
 # Read the data
-df = pd.read_csv("all_months_data.csv")
+df = pd.read_csv("combined_data.csv")
 # Read and rename the dataframe to an easy to write title
 
 
