@@ -1,6 +1,6 @@
 # Sales basket analysis using Pandas
 In this project, we analyze the monthly sales data of the American electronic store. 
-The dataset contains information on the following five variables, generally considered highly relevant for sales market analysis in the ecommerce industry, incl. purchased product combinations, basket value etc.  
+The dataset contains information on variables considered highly relevant for sales market analysis in the eCommerce industry, incl. purchased product combinations, basket value, etc.  
 
 The main aim of this project is to gather hands on experience of Python's *Pandas* library. 
 
