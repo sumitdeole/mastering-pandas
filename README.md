@@ -1,19 +1,19 @@
 # Sales basket analysis using Pandas
-In this project, we analyze the monthly sales data of the American electronic store. 
+In this project, I analyze the monthly sales data of the American electronic store. 
 The dataset contains information on variables considered highly relevant for sales market analysis in the eCommerce industry, incl. purchased product combinations, basket value, etc.  
 
-The main aim of this project is to gather hands on experience of Python's *Pandas* library. 
+The main aim of this project is to gather hands-on experience of Python's *Pandas* library. 
 
-Keeping this in mind, we look for answers to the following exercises/questions:
+Keeping this in mind, I look for answers to the following exercises/questions:
 1. Merge 12 datafiles into a single dataframe
 2. What was the best month for sales? And how much was earned that month?
 3. Which US city had the largest sales?
-4. What time should we display advertisements to maximize sales?
+4. What time should I display advertisements to maximize sales?
 5. Which product sold the most? Any guess why?
 6. Which products are most often sold together?
 
 
-**Data source:** Unfortunately, unknown to me. Many videos/blogs use it without discussing the original source. Any help here? I originally found it [here]( https://www.youtube.com/watch?v=eMOA1pPVUc4&ab_channel=KeithGalli). You can also download it from my repo.  
+**Data source:** Unfortunately, unknown to me. Many videos/blogs use it without discussing the source. Any help here? I originally found it [here]( https://www.youtube.com/watch?v=eMOA1pPVUc4&ab_channel=KeithGalli). You can also download it from my repo.  
 
 
 ## Useful links
